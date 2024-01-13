@@ -18,11 +18,20 @@ class VapsScreen extends StatelessWidget {
         onTap: (i) {
           mp.selectedIndex = i;
         },
+        selectedItemColor: Colors.redAccent,
+        unselectedItemColor: Colors.grey[900],
+        selectedLabelStyle: const TextStyle(  
+          fontSize: 15,
+          fontWeight: FontWeight.w500
+        ),
+        unselectedLabelStyle: const TextStyle(  
+          fontSize: 13,
+          fontWeight: FontWeight.w500
+        ),
         items: mp.items
             .map((e) => BottomNavigationBarItem(
                 icon: Icon(
                   e.iconData,
-                  color: Colors.purpleAccent,
                 ),
                 label: e.label,
                 ))
