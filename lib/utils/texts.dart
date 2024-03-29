@@ -5,3 +5,5 @@ const about = "\tVoluntary Association for Peoples Service (VAPS)  is a developm
 const vision = "Enabling Economically productive, Socially Empowered and Ecologically self driven communities for a world of Equality and social justice.";
 
 const mission = "Strengthen livelihoods , secured and gainful employment , Gender value chain to transform lives of the marginalized towards social dignity and excellence for local economic development , Gender Equality and securing the Environment.";
+
+const bankDetails = "Payee	:	VAPSindia\nBank	:	ICICI\nAccount No	:	600600528825\nBranch	:	Madurai\nIFSC Code	:	ICIC0006006";

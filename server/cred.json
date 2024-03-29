@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vapsindia",
+  "private_key_id": "ffd2bda4721b8de609ccf1dca5edfb54411559da",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsxWBcDycmpuIR\n8GKs57Sn5nzJOdTQ/rPBZNpMD8zpSlILM6oo2IBhSJzbLWr1Szfn4yCl5/vlecEi\nKc4ifhiX0gX4hCVAlTBGaQsOBQrBXLOK+Rm+ljcpZ7dofw7ggMNStfSpJ9himn5x\nakkmt3MA58aMR2xo0avx1OyW1lJrybI1i1Se1G3rBEGpwOt/oqhg1Yx7Ou27OHgV\nzJ2WbGpMiFSQjYwTnS7UrVRx3nkarw1uS72t8JqRGbiTMAK+rSKttzw6GrCj3ZJn\n6MqZkqMQSS7phMDaGDlACTDZgqNIyRK5ZfCmxf6dMZQ2LviJTLQNMCFxtr9VS+Y9\n+vup78BFAgMBAAECggEAJt9j7mKkavBqdiHRedjKT2qvEfF2ni1okW9ZJHr7nlPQ\nAOA3fWg0/m6BiFkAMz+gzQZP7rQy+285ErA4Ro97hhFFsaQ943mNupHg4F8nC9mJ\nNhAVCEoxEBpbbGIGHWIrUF1LNpIWAB2FrIv++HyXHhGIHUDmtfDTEJ7ZOpjvQ3vn\n26geUkZuenJDOND00ABtWI02REJjTUDijmTlCgP/OVJWuFJSJPg6T8l1zrcXp0t8\nW+3ITgruTXUnWttVV2Wfe0va5MPMg1s5hTvZAx7LuS2TTI3LpngN/9FE3WrALO0D\nj7JCRE5lQT4clvhW2AXZXkj6uayGNVsJ37pyaJ53wwKBgQDd/dPfCudD/vgDww/j\n0s7gg5IUUqfua86svGYGawAOGpoSzzGdNE4ZjMef0AEP9gHiH4jz2R2QD4AEcppv\ncoS9l/catp7X8V8pjGqWaBrjQbMsMHZJS96n1zkJtQmJ2Y+g3ng/z2JDloVHCsIO\nYYdIr9cY+SAXKpMSBrt9hXzrpwKBgQDHPTHLqlOiTpPJY3jmHdg+xZCBGZssYtz/\ngZWLjD8I1F60bp+bld+GDyOCisa0WqQzDWBEnyXmcuwYNu7/58RhAahgoNaY8+pa\n7PyZGOVy6h/Xgi9I7Wm2FByXWoIDQtiGoge5fqu+b2X3ID79H/j+KQGeftWPBW84\n2HV1Ls6CMwKBgAb6T4qXQSW2Af28R+eVXMNZ32GcJ4MrCFgNo/dXrazD0Uv+D0Ut\nu7a54hx34VCrHuwIqblgfbllg1SgdZJDO0DqYe4JB30qLR+VNlR7+TxjeEpPS6iK\nJfmInlZbxmz61bTsyULYNfKB7LaK9AaXsjTqsgwq6INR50WNyJ7tbzvJAoGBAMN+\nXwrY8ME0WrxjVzBsHk/RaK3UIzcVNoWab9MCZKNURizC0udF0pJm7k/bvYcf3Tee\nq1QJ2JVbNB+6Xx5IGp+Ykc9mYcqoos5e9KeADzuHUIEUYzMqiOw4pak5DJMIlw7b\nk7rF+Nydz64BPOz/3z/7mnQbPY7dJTng4rd9mvGTAoGAYA1ZNP6+BCRRXHgN7sHd\nh8kI9gi8yrlW6X/MABjJsAkv5+ghMar+3/H2JyoPcGeQQ/4ORs4vWJ0EH9a9YnBD\nKUZ78BX0u7mOwQ8nuIhaVsWGFfBKICUNCaOOgwpCVNUjBmt7GHAxjU9UIOs8sl7Z\n6lD9FD4tr1cFcnfvOV/7yiI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vapsindia@vapsindia.iam.gserviceaccount.com",
+  "client_id": "109188092900766261907",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vapsindia%40vapsindia.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -7,7 +7,7 @@ class VapsProvider with ChangeNotifier {
   List<VapsDTO> items = [
     VapsDTO(label: 'Home', widget: const HomeTab(), iconData: Icons.home),
     VapsDTO(
-        label: 'Training', widget: const TrainingTab(), iconData: Icons.search_sharp),
+        label: 'Training', widget: const TrainingTab(), iconData: Icons.model_training_rounded),
     VapsDTO(label: 'Programs', widget: const ProgramsTab(), iconData: Icons.apps),
   ];
   int _selectedIndex = 0;

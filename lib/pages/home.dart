@@ -1,7 +1,9 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:vapsindia/model.dart/teamMember.dart';
+import 'package:vapsindia/pages/contact_page.dart';
+import 'package:vapsindia/pages/gallery_page.dart';
+import 'package:vapsindia/utils/route.dart';
 import 'package:vapsindia/utils/texts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -45,6 +47,15 @@ class _HomeTabState extends State<HomeTab> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            onPressed: (){
+                Navigator.push(context, fallingPageRoute(child: const GalleryPage()));
+            
+          }, icon: IconButton(
+            onPressed: (){
+                Navigator.push(context, fallingPageRoute(child: const GalleryPage()));
+            
+          }, icon: const Icon(Icons.photo_library_rounded, size: 28,)),),
           backgroundColor: Colors.redAccent,
           foregroundColor: Colors.white,
           title: const Text(
@@ -55,6 +66,12 @@ class _HomeTabState extends State<HomeTab> with SingleTickerProviderStateMixin{
                 fontWeight: FontWeight.bold),
           ),
           centerTitle: true,
+          actions: [
+            IconButton(onPressed: (){
+                Navigator.push(context, fallingPageRoute(child: const ContactPage()));
+            }, icon: const Icon(Icons.contact_support_rounded, size: 30)),
+            const SizedBox(width: 15,)
+          ],
         ),
         body: ScrollConfiguration(
             behavior:
@@ -175,6 +192,7 @@ class _HomeTabState extends State<HomeTab> with SingleTickerProviderStateMixin{
                           
                           const SizedBox(height: 20,),
                           Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             FadeTransition(opacity: _transcontroller,child: const Icon(FontAwesomeIcons.bullseye, color: Colors.redAccent,)),
                               const SizedBox(width: 15,),
@@ -192,8 +210,10 @@ class _HomeTabState extends State<HomeTab> with SingleTickerProviderStateMixin{
                               )),
                           const SizedBox(height: 40,),
                           Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+
                             children: [
-                              FadeTransition(opacity: _transcontroller,child: const Icon(FontAwesomeIcons.bullseye, color: Colors.redAccent,)),
+                              FadeTransition(opacity: _transcontroller,child: const Icon(FontAwesomeIcons.solidStar, color: Colors.redAccent,)),
                                 const SizedBox(width: 15,),
                               const Text("OUR MISSION", style: TextStyle(
                                 color: Colors.redAccent,
@@ -280,6 +300,10 @@ class _HomeTabState extends State<HomeTab> with SingleTickerProviderStateMixin{
                                               ),),
                                               const SizedBox(height: 5,),
                                               Text(i.designation, 
+                                              style: const TextStyle(
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w500
+                                              ),
                                               textAlign: TextAlign.center),
                                               const SizedBox(height: 20,),
                                               Row(
